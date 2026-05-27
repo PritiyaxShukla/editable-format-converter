@@ -1,0 +1,31 @@
+# Editable Format Converter - Requirements
+# Install with: pip install -r requirements.txt
+
+# Web Interface
+gradio>=5.0.0
+
+# Core OCR and Document Processing
+easyocr>=1.7.0
+python-doctr[torch]>=0.11.0
+
+# PDF Generation and Image Processing
+reportlab>=4.0.0
+opencv-python>=4.5.0
+Pillow>=9.0.0
+
+# Scientific Computing
+numpy>=1.16.0
+scipy>=1.4.0
+
+# Visualization
+matplotlib>=3.0.0
+
+# Deep Learning (for OCR models)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Additional utilities
+scikit-image>=0.20.0
+
+# Document Processing
+python-docx>=0.8.11
